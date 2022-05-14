@@ -28,6 +28,9 @@ http://localhost:8080/processFile
 
 --> FUNCTION: Adds the contacts of the files in the DB
 
+* ***The file that has to be loaded must follow the CSV standards (as people.csv) file to be well normalized/parsed.***
+* ***Controls have minimum validations in the URL image*** 
+
 http://localhost:8080/listContacts
 --> PARAMETERS: --- name (if empty returns all records)
 
